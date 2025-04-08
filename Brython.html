@@ -1,0 +1,31 @@
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/brython@3.13.0/brython.min.js">
+    </script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/brython@3.13.0/brython_stdlib.js">
+    </script>
+</head>
+
+<body>
+
+<script type="text/python">
+
+from browser import document, html
+
+document <= "Bonjour !"
+
+document <= html.H1("Texte")
+document <= html.H2("ceci est un ptit text")
+document <= html.H3("clique si tu veux peter")
+document <= html.BUTTON("clique si tu veux peter")
+</script>
+
+
+</body>
+
+</html>
